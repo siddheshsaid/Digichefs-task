@@ -1,0 +1,265 @@
+ /* @media screen and  (max-width: 991px){
+    
+     .subcontainer-1-b-text{
+ 
+      
+        font-size: 128%;
+    
+        padding-left: 20%;
+       
+        top: 26%;
+        
+      }  */
+
+      
+
+/* 
+    /* Your existing CSS */
+
+/* Media query for responsiveness below 990px */
+/* @media screen and (max-width: 1024px) { */
+  @media screen and (min-width: 768px) and (max-width: 1024px) {  
+  .subcontainer-1-b-text{
+ 
+      
+    font-size: 128%;
+
+    padding-left: 20%;
+   
+    top: 26%;
+    
+  }  
+    .subcontainer-3 .subcontainer-3-a-activityList {
+        left: 5%; /* Adjust the left position */
+        width: 90%; /* Adjust the width */
+        font-size: small;
+    }
+
+    /* Adjust other styles as needed for responsiveness */
+    
+    
+
+    .subcontainer-3 .subcontainer-3-b-imageDiv{
+  
+      position: absolute;
+      height: 20%;
+      /* left: 10vw; */
+      /* top: 10rem; */
+      z-index: 2;
+      top:53%;
+      left: 15%;
+    } 
+   
+    
+    
+
+ .subcontainer-3-b-imageDiv img {
+    width:50%;
+     /* Set image width to 100% of the container */
+    /* height: 23em; */
+     /* Maintain aspect ratio */
+    
+   
+} 
+
+
+ 
+#border-after {
+  position: relative;
+}
+
+#border-after::after {
+  content: '';
+  display: block;
+  background-color: #8B0000;
+  border-bottom: 0.12rem solid red;
+  border-radius: 19%;
+  position: absolute;
+  bottom: -4.4rem; /* Adjust this value as needed */
+  left: 0;
+  width: 91%;
+}
+
+  
+
+  
+
+
+
+    
+        .subcontainer-3-a-activityList-table-a{ 
+          /* position: relative;  */
+         top: 14%;
+         left: -7%;
+         /* height: 100%; */
+         
+            } 
+        .subcontainer-3-a-activityList-table-a p{
+          /* position: absolute; */
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          flex-wrap: wrap;
+        
+          
+           /* top: 2rem; */
+           
+           font-size: 0.7rem;
+           font-family: sans-serif;
+          
+           
+        }  
+        .subcontainer-3{
+          background-color: rgb(32,32,32);
+          position: relative;
+          
+          /* width: 100%;  */
+          height: 28rem;
+          
+          box-shadow:0px 2rem 0.6rem -0.06rem 	rgb(136,136,136) ;
+          }
+        .subcontainer-3 .subcontainer-3-a-activityList{
+          height: 97%;
+          width:68%;
+          left: 17%;
+         
+        }
+        .subcontainer-3-a-activityList-table-button{
+          
+         top: 92%;
+         
+        }
+        
+        .subcontainer-3-a-activityList-table-button .buy-now-btn{
+          
+          height:1.5rem;
+          
+          
+          
+        }
+
+        #subcontainer-3-a-activityList-table{
+          /* background-color: red; */
+           display: flex;
+          align-items: center;
+          justify-content:space-evenly; 
+          font-family: sans-serif;
+          font-size: 100%;
+          
+           
+         }  
+        
+        
+         #subcontainer-3-a-activityList-table table th{
+          color: rgb(32,32,32);
+          text-align: justify;
+          justify-content: space-evenly;
+        }
+        #subcontainer-3-a-activityList-table table{
+      
+          border-collapse: separate; 
+          border-spacing: 1.5rem; 
+          
+        
+    }
+    .subcontainer-4{
+      background-color: red;
+      
+        
+        height: 11.5rem; /* Set your desired height */
+        background: linear-gradient(to bottom,red 50%, #8B0000 97%);
+        border-radius: 1rem;
+        
+        
+        width: 90%;
+      margin-top:6%;
+      margin-left: 4%;
+      
+      }
+      
+      .subcontainer-4-a-text p{
+       
+       
+        font-weight: 500;
+        font-size:200%;
+
+      }
+    .subcontainer-5-a-heading p{
+
+      position: absolute;
+      margin-top: 2%;
+      margin-left: -2%;
+      font-size: xx-large;
+      font-weight: bolder;
+      color:rgb(32,32,32) ;
+      
+    
+    }    
+    #subcontainer-5-border {
+      position: relative;
+      left:-14rem;
+      top: 6rem;
+    }
+    
+    .subcontainer-5 .subcontainer-5-a-textDiv {
+
+  
+      position: absolute;
+      top: 25%;
+      left: 1%;
+      /* height: auto; 
+      width: auto; */
+      font-size: 100%;
+      font-weight: 549;
+      word-spacing: 0.3rem
+     
+    
+    
+    }
+    .subcontainer-5-a-button .buy-now-btn{
+      
+      top: 62%;
+     
+      left: -2%;
+      z-index: 3;
+     
+      width: 40%;
+      font-size: 110%;
+     
+      }
+      .subcontainer-5-c-text h1{
+        text-align: center;
+        /* font-family: sans-serif; */
+        color: #fff;
+        padding-top: 1.4rem;
+        font-size: 180%;
+        }
+        
+      #contact-us{
+        
+        
+        top: 60%;
+        height: 20%;
+        left: 15rem;
+        
+        width: 35%;
+        font-size: 100%;
+      
+     
+        }
+
+      
+      }
+      @media screen and (min-width: 768px) and (max-width: 801px){
+        
+      .subcontainer-3-a-activityList-table-a{
+           left: 0%; 
+      }
+      
+      
+    }
+  
+  
+        
+
+ 

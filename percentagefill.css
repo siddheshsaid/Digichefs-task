@@ -1,0 +1,184 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.div{
+  height:13.9rem;
+  /* background-color: red; */
+}
+
+.fill {
+  width: 10.6%;
+  height:73%;
+  /* background: cornflowerblue; */
+  position: relative;
+}
+
+.outer {
+  height: 99%;
+  width: 100%;
+  border-radius: 50%;
+  /* border: 1px solid red; */
+  padding: 14%;
+  box-shadow:6px 6px 10px -1px rgba(0,0,0,0.15),
+             -6px -6px 10px -1px rgba(255,255,255,0.7);
+
+ }  
+
+.inner {
+  height: 98%;
+  width: 97%;
+  padding: 10.8%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+  box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+  inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+  -0.5px -0.5px 0px  rgba(255,255,255,1),
+   0.5px 0.5px 0px  rgba(0,0,0,0.15),
+  0px 12px 10px -10px rgba(0,0,0,0.05);
+
+}
+#number{
+  font-weight: 600;
+  color: #555;
+
+}
+#progressCircle {
+  fill: none;
+  stroke: url(#GradientColor);
+  stroke-width: 13%;
+  padding: 13%;
+  
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472 ;
+  
+  animation: anim 2s linear forwards;
+}
+svg{
+  position: absolute;
+  top: 0vh;
+  left: 0vh;
+
+}
+@keyframes anim {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+ /* @media (max-width: px) {
+  .fill {
+    
+    width: 10%;
+    height:90%; */
+    /* background: cornflowerblue; */
+    /* position: relative;
+  }
+  
+  .outer {
+    height: 80%;
+    width: 210%;
+    border-radius: 50%; */
+    /* border: 1px solid red; */
+    /* padding-top: 3.4vh;
+    
+    box-shadow:6px 6px 10px -1px rgba(0,0,0,0.15),
+               -6px -6px 10px -1px rgba(255,255,255,0.7);
+  
+   }   */
+  
+  /* .inner {
+    height: 17.3vh;
+    width: 17.3vh;
+    margin-top: -1.7vh;
+    margin-left: -0.5vh;
+    border-radius: 50%; */
+    /* padding-top: 7vh; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* border: 1px solid red; */
+    /* box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+    inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+    -0.5px -0.5px 0px  rgba(255,255,255,1),
+     0.5px 0.5px 0px  rgba(0,0,0,0.15),
+    0px 12px 10px -10px rgba(0,0,0,0.05);
+  
+  }
+  #number{
+    font-weight: 600;
+    color: #555;
+  
+  }
+  #progressCircle {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 2.5vw;
+    padding: 4vw;
+    
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472 ;
+    
+    animation: anim 2s linear forwards;
+  }
+  svg{
+    position: absolute;
+    top: -1vh;
+    left: 0vh;
+  
+  }
+  @keyframes anim {
+    100% {
+      stroke-dashoffset: 165;
+    }
+  }
+}  */
+
+@media (min-width: 375px) and (max-width: 667px) {
+  .div{
+    height:13.9rem;
+    /* background-color: red; */
+  }
+  
+  .fill {
+    width: 11.5%;
+    height:110%;
+    /* background: cornflowerblue; */
+    position: relative;
+  }
+  .outer {
+    padding: 30%;
+    height: 50%;
+    width: 200%; /* Adjust outer padding for screens within this range */
+  }
+  .inner {
+    padding: 30%; /* Adjust inner padding for screens within this range */
+  }
+  #progressCircle {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 10%;
+    padding: 13%;
+    
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472 ;
+    
+    animation: anim 2s linear forwards;
+  }
+  svg{
+    position: absolute;
+    top: -2vh;
+    left: 0vh;
+  
+  }
+  @keyframes anim {
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+  /* Add more specific styles for screens within this range */
+}
